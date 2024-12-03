@@ -14,33 +14,30 @@ Includes word clouds and interactive plots for data analysis and results interpr
 The project uses the IMDb Movie Reviews Dataset, which contains 50,000 reviews categorized as positive or negative. The dataset is automatically downloaded and extracted during runtime.
 
 ## Installation
-Prerequisites
-Ensure you have Python 3.7 or later installed. Additionally, install the following libraries:
-
-bash
+# Prerequisites
+Ensure you have Python 3.7 or later installed. Additionally, install the following libraries: 
 pip install tensorflow transformers pandas matplotlib plotly wordcloud scikit-learn beautifulsoup4
-Usage
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-username/sentiment-analysis-using-bert.git
-Navigate to the project directory:
-bash
-Copy code
-cd sentiment-analysis-using-bert
-Open the Jupyter Notebook:
-bash
-Copy code
-jupyter notebook Sentiment_analysis_using_BERT.ipynb
-Execute the cells step-by-step to:
-Download and preprocess the dataset.
+
+Clone this repository: git clone https://github.com/your-username/sentiment-analysis-using-bert.git
+
+Navigate to the project directory: cd sentiment-analysis-using-bert
+
+Open the Jupyter Notebook: jupyter notebook Sentiment_analysis_using_BERT.ipynb
+
+Execute the cells step-by-step to: Download and preprocess the dataset.
 Fine-tune the BERT model.
 Evaluate the results and generate visualizations.
-Results
+
+## Results
 The fine-tuned BERT model achieves high accuracy on the IMDb dataset.
+
 Word clouds highlight the most common words in positive and negative reviews.
+
 Performance metrics, including precision, recall, and F1-score, provide insights into the model's effectiveness.
-Future Enhancements
+
+## Future Enhancements
 Explore other transformer models like RoBERTa or DistilBERT.
+
 Extend the project to handle multi-class sentiment classification.
+
 Implement a web interface for real-time sentiment analysis.
